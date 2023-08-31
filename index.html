@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--divinectorweb.com-->
+
+<head>
+    <meta charset="UTF-8">
+    <title>Quotes</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h2>Quotes</h2>
+
+    <div class="carousel">
+        <a class="carousel-item" href="#">
+            <div class="card">
+                <img src="photos/will.jpeg" alt="">
+                <div class="container">
+                    <p><q>Success is not final; failure is not fatal: It is the courage to continue that counts.</q></p>
+                    <h4>~Winston S. Churchill</h4>
+                </div>
+
+            </div>
+        </a>
+       
+            <a class="carousel-item" href="#">
+                <div class="card">
+                    <img src="photos/nelson.jpeg" alt="">
+                    <div class="container">
+                        <p><q>It always seems important until it's done</q>
+                        </p>
+                        <h4>~Nelson Mandela</h4>
+                    </div>
+
+                </div>
+            </a>
+          
+                <a class="carousel-item" href="#">
+                    <div class="card">
+                        <img src="photos/kalam.jpeg" alt="">
+                        <div class="container">
+                            <p><q>It is very Easy to Defeat Someone,But it is very Hard to Win someone.</q></p>
+                            <h4>~George Clooney</h4>
+                        </div>
+
+                    </div>
+                </a>
+              
+                    <a class="carousel-item" href="#">
+                        <div class="card">
+                            <img src="photos/oprah.jpeg" alt="">
+                            <div class="container">
+                                <p><q>You can have it all.<br>You just can't have it all at once</q></p>
+                                <h4>~Oprah Winfrey</h4>
+                            </div>
+
+                        </div>
+                    </a>
+                    
+                        <a class="carousel-item" href="#">
+                            <div class="card">
+                                <img src="photos/mahatma.jpeg" alt="">
+                                <div class="container">
+                                    <p><q>Futures depend on what you do Today.</q></p>
+                                    <h4>~Mahatma Gandhi</h4>
+                                </div>
+
+                            </div>
+                        </a>
+                
+                
+    </div>
+
+
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+            <script>
+                $(document).ready(function () {
+                    $('.carousel').carousel({
+                        padding: 200
+                    });
+                    autoplay();
+                    function autoplay() {
+                        $('.carousel').carousel('next');
+                        setTimeout(autoplay, 4500);
+                    }
+                });
+            </script>
+
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+body {
+	margin: 0; 
+	padding: 0;
+}
+
+h2 {
+	font-family: 'Bebas Neue', cursive;
+	color: #f09098;
+    font-weight: bolder;
+	text-align: center;
+	margin: 40px 0 -50px;
+	padding-bottom: 20px;
+	/* background-image: url(img/border.png);
+	background-repeat: no-repeat;
+	background-position: center bottom; */
+}
+
+
+.carousel{
+    height: 600px; 
+    perspective: 200px;
+}
+.carousel .carousel-item{
+	width: 640px;
+	height: 400px;
+}
+.card {
+    background-color: rgb(182, 230, 252);
+	box-shadow: 3px 4px 8px 0 rgba(95, 29, 29, 0.2);
+	max-width: 500px;
+	text-align: center;
+	border-radius: 10px;
+	height: 450px;
+    margin: auto;
+  }
+
+h4 {
+	font-size: 20px;
+	line-height: 1.5;
+    margin-left: 100px;
+    color: #f09098;
+
+}
+
+.card p{
+	font-size: 25px;
+    font-family: 'Pacifico', cursive;
+}
+
+img{
+    margin-top: 30px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border:8px dotted rgb(235, 190, 190);
+}
